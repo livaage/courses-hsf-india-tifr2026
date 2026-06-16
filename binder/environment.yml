@@ -31,8 +31,8 @@ dependencies:
       #- tensorflow[and-cuda] 
       ##- tensorrt
       #- tqdm
-      - jax[cuda12]
-      - nvidia-cudnn-cu12
+      - jax[cuda13]
+      - nvidia-cudnn-cu13
       - xgboost
       - omnilearned
   
