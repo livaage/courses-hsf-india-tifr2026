@@ -1,0 +1,45 @@
+name: hsf-india-ml
+channels:
+  - nvidia/label/cuda-13.1
+  - conda-forge
+dependencies:
+  - python=3.12
+  - bash_kernel
+  - grpcio
+  - numpy<2
+  - pandas
+  - scipy
+  - hdf5
+  - lz4
+  - matplotlib
+  #- numba
+  - openssh
+  - pandas
+  - pip
+  - scikit-learn
+  - transformers 
+  - peft 
+  - bitsandbytes 
+  - trl 
+  - datasets
+  - pytorch
+  - torch-geometric
+  - torchvision
+  - pip:
+      - h5py
+      - tensorboard
+      - tensorflow[and-cuda] 
+      ##- tensorrt
+      #- tqdm
+      - jax[cuda12]
+      - nvidia-cudnn-cu12
+      - xgboost
+      - omnilearned
+  
+  
+
+
+
+variables:
+  LD_LIBRARY_PATH: "'$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'"
+  
