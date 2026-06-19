@@ -43,7 +43,7 @@ dependencies:
   # "better path, not required" — drop any that won't solve.
   - pytorch-cluster
   - pytorch-scatter
-  - pytorch-sparse
+  #- pytorch-sparse #does not solve with this
 
   - pip:
       - h5py
