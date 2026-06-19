@@ -7,6 +7,7 @@ name: hsf-india-ml
 channels:
   - nvidia/label/cuda-13.2
   - conda-forge
+  - pyg
 dependencies:
   - python=3.12
   - bash_kernel
