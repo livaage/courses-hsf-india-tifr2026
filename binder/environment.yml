@@ -41,8 +41,8 @@ dependencies:
   # knn. These must match the pytorch CUDA build; on CUDA 13.2 they may be fiddly.
   # The notebooks fall back to a DeepSets encoder if these are absent, so they're
   # "better path, not required" — drop any that won't solve.
-  - pytorch-cluster
-  - pytorch-scatter
+  #- pytorch-cluster
+  #- pytorch-scatter
   #- pytorch-sparse #does not solve with this
 
   - pip:
