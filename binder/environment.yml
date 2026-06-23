@@ -31,6 +31,7 @@ dependencies:
   - pytorch
   - torch-geometric
   - torchvision
+  - cxx-compiler
 
   # --- added for the generative-ML track (conda-forge) ---
   - imageio              # denoising / training GIFs (nb 02, 03)
@@ -57,8 +58,8 @@ dependencies:
       - omnilearned
 
       # --- added for the generative-ML track (pip / PyPI-only) ---
-#      - diffusers        # UNet + schedulers — REQUIRED for nb 03/04 + the capstone
-#      - jetnet           # JetNet datasets + FPD/KPD/W1 — REQUIRED for nb 01/02/05/06
+      - diffusers        # UNet + schedulers — REQUIRED for nb 03/04 + the capstone
+      - jetnet           # JetNet datasets + FPD/KPD/W1 — REQUIRED for nb 01/02/05/06
       - zuko             # normalizing flows
 #binary search for what brings wasserstein
       - geomloss         # Sinkhorn / optimal-transport losses
